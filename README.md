@@ -23,7 +23,7 @@ Each image undergoes transformations such as resizing, cropping, flipping, rotat
 A ResNet-50 model pre-trained on ImageNet is loaded. This model already has learned to detect various general features from images.
 The pre-trained layers of ResNet-50 are frozen to retain these learned features.
 
-** 🌐Customizing the Model** :
+**🌐Customizing the Model** :
 
 The final fully connected layer of ResNet-50, which originally classifies into 1000 classes, is replaced with a new fully connected layer that classifies into 8 skin condition categories.
 The new layer architecture is as follows:
