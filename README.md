@@ -2,12 +2,13 @@
 
 ## 🌐Features
 **Skin Condition Detection**: Identifies common skin conditions, including acne, pigmentation, and pore quality.
+
 **Skin Tone Analysis**: Assists in determining the appropriate foundation color by analyzing light, medium, and dark skin tones.
 
 ## 🔨Technologies Used
 **ML Model**: PyTorch with a pretrained ResNet-50 architecture
 
-##🔥 How It Works
+## 🔥How It Works
 **Model Architecture**
 The model is built on a ResNet-50 architecture, a powerful deep convolutional neural network pre-trained on the ImageNet dataset. ResNet-50 is known for its ability to extract rich features from images due to its deep layers and residual connections.
 
